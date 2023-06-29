@@ -24,17 +24,17 @@ The project incorporates a user-friendly web-based interface using Streamlit. St
 
 To run this project locally, follow these steps:
 Clone this repository:
-'''
+```
 git clone https://github.com/your-username/CarDentDetectionandPricePrediction.git
-'''
+```
 Install the required dependencies:
-'''
+```
 pip install -r requirements.txt
-'''
+```
 Run the Streamlit application:
-'''
+```
 streamlit run app.py
-'''
+```
 Open the displayed URL in your web browser to access the UI.
 
 # Results
