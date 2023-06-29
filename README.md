@@ -9,3 +9,33 @@ The dataset used in this project consists of a collection of car images, each la
 
 # Machine Learning Techniques
 
+This project employs state-of-the-art machine learning algorithms and techniques to accomplish the objectives:
+
+Image Processing: Image processing techniques are utilized to preprocess the car images, enhance their quality, and extract relevant features for dent detection.
+
+Object Detection: Modern object detection algorithms are trained on the dent-labeled dataset to accurately identify and localize dents in car images.
+
+Regression: Regression models are trained on the dent-labeled dataset to predict the repair cost based on the severity and location of the detected dents.
+
+# User Interface
+The project incorporates a user-friendly web-based interface using Streamlit. Streamlit allows users to upload car images, visualize the detected dents, and obtain predicted repair costs interactively. The UI provides an intuitive and accessible way for users to utilize the dent detection and price prediction functionalities.
+
+# Installation and Usage
+
+To run this project locally, follow these steps:
+Clone this repository:
+'''
+git clone https://github.com/your-username/CarDentDetectionandPricePrediction.git
+'''
+Install the required dependencies:
+'''
+pip install -r requirements.txt
+'''
+Run the Streamlit application:
+'''
+streamlit run app.py
+'''
+Open the displayed URL in your web browser to access the UI.
+
+# Results
+The implemented dent detection model achieves high accuracy in identifying and localizing car dents. The price prediction model provides estimates for repairing the detected dents based on their severity and location. The UI allows users to visualize the results conveniently and obtain repair cost predictions in real-time.
